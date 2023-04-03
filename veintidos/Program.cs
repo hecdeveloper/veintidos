@@ -25,6 +25,18 @@ namespace Switch
                 Console.WriteLine("Paga $15 por cada auto");
                 break;
             } 
+            if(autos == 0)
+            {
+                Console.WriteLine("No paga impuestos");
+            }else if(autos == 1)
+            {
+                Console.WriteLine("Paga $15");
+            }else if(autos == 2)
+            {
+                Console.WriteLine("Paga $35");
+            }else{
+            Console.WriteLine("Paga $15 por cada auto");
+            }
             Console.Read();
         }
 
