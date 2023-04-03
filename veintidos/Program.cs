@@ -37,6 +37,22 @@ namespace Switch
             }else{
             Console.WriteLine("Paga $15 por cada auto");
             }
+            string piedraPapelTijera = "tijera";
+            switch(piedraPapelTijera)
+            {
+                case "piedra":
+                    Console.WriteLine("Piedra mata a tijera");
+                    break;
+                case "papel":
+                    Console.WriteLine("Papel mata a piedra");
+                    break;
+                case "tijera":
+                    Console.WriteLine("Tiejra mata a papel");
+                    break;
+                default:
+                    Console.WriteLine("No es una opción válida");
+                    break;
+            }
             Console.Read();
         }
 
