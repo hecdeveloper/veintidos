@@ -11,18 +11,17 @@ namespace veintidos
             string nombreDeUsuario = "";
             Console.WriteLine("Por favor, ingrese su nombre de usuario");
             nombreDeUsuario = Console.ReadLine();
-            if(estaregistrado)
+            if(estaregistrado && nombreDeUsuario != "" && nombreDeUsuario.Equals("Admin"))
             {
                 Console.WriteLine("Hola usuario registrado");
-                if(nombreDeUsuario != "")
-                {
-                    Console.WriteLine("Hola " + nombreDeUsuario);
-                    if (nombreDeUsuario.Equals("Admin"))
-                    {
-                        Console.WriteLine("Hola Admin");
-                    }
-                }
-
+             
+                Console.WriteLine("Hola " + nombreDeUsuario);
+                    
+                 Console.WriteLine("Hola Admin"); 
+            }
+            if(esAdmin || estaregistrado)
+            {
+                Console.WriteLine("Estas Logueado");
             }
             Console.Read();
         }
