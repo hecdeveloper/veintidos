@@ -8,19 +8,13 @@ namespace  Clases
  
         static void Main(string[] args)
         {
-            Humano laura = new Humano("Laura", "Lopez");
-            Humano franco = new Humano("Franco", "Andrade");
-            laura.primerNombre = "Laura";
-            franco.primerNombre = "Franco";
-            laura.apellido = "Lopez";
-            franco.apellido = "Milano";
-            laura.presentarme();
-            franco.presentarme();
+            Humano luis = new Humano("Luis", "Lopez", "azul", 22);
+            Humano ana = new Humano("Ana", "Llamas", "Verde", 2);
+            luis.presentarme();
+            ana.presentarme();
             Console.Read();
 
         } 
-
-     
 
     }
 }
