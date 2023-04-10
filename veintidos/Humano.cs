@@ -8,9 +8,9 @@ namespace veintidos
 		public string apellido;
 
 		//miembro constructor
-		public Humano(string miPrimerNombre, string apellido)
+		public Humano(string primerNombre, string apellido)
 		{
-			primerNombre = miPrimerNombre;
+			this.primerNombre = primerNombre;
 			this.apellido = apellido;
 		}
 
