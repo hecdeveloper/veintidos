@@ -8,10 +8,20 @@ namespace  Clases
  
         static void Main(string[] args)
         {
-            Humano juan = new Humano
+            //CREA UN OBJ DESDE MI CLASE    
+            Humano juan = new Humano();
+            //acceder a una variable
+            juan.primerNombre = "Juan";
+            //llama a un method
+            juan.presentarme();
+
+            Humano pedro = new Humano();
+            pedro.presentarme();
+            Console.Read();
+
         } 
 
-    
+     
 
     }
 }

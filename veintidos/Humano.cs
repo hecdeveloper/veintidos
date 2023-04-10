@@ -4,7 +4,16 @@ namespace veintidos
 	public class Humano
 	{
 		//miembro variable
-		string primerNombre;
+		public string primerNombre;
+		public string apellido;
+
+		//miembro method
+		public void presentarme()
+		{
+
+			Console.WriteLine("Hola, soy {0} {1}", primerNombre, apellido);
+		}
+
 
 	}
 }
