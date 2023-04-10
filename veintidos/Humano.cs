@@ -3,9 +3,9 @@ namespace veintidos
 {
 	public class Humano
 	{
-		public Humano()
-		{
-		}
+		//miembro variable
+		string primerNombre;
+
 	}
 }
 

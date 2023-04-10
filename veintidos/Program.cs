@@ -1,4 +1,5 @@
 ﻿using System;
+using veintidos;
 
 namespace  Clases
 {
@@ -7,8 +8,8 @@ namespace  Clases
  
         static void Main(string[] args)
         {
-            Humano juan = new Humano(); 
-        }
+            Humano juan = new Humano
+        } 
 
     
 
