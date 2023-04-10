@@ -7,6 +7,14 @@ namespace veintidos
 		public string primerNombre;
 		public string apellido;
 
+		//miembro constructor
+		public Humano(string miPrimerNombre, string apellido)
+		{
+			primerNombre = miPrimerNombre;
+			this.apellido = apellido;
+		}
+
+
 		//miembro method
 		public void presentarme()
 		{

@@ -8,8 +8,8 @@ namespace  Clases
  
         static void Main(string[] args)
         {
-            Humano laura = new Humano();
-            Humano franco = new Humano();
+            Humano laura = new Humano("Laura", "Lopez");
+            Humano franco = new Humano("Franco", "Andrade");
             laura.primerNombre = "Laura";
             franco.primerNombre = "Franco";
             laura.apellido = "Lopez";
