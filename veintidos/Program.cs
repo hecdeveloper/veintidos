@@ -9,11 +9,17 @@ namespace  Clases
         static void Main(string[] args)
         {
 
-            Humano humanoBasico = new Humano("Alberto", "Perez", "Azul");
-            humanoBasico.presentarme();
+            Humano juan = new Humano("Juan");
+            Humano juana = new Humano("Juana", "Garay", "verde");
+            Humano milena = new Humano("Juana", "Millera");
+            Humano antonio = new Humano("Antonio", "Cama", 7, "Azul");
+
+            juan.presentarme();
+            juana.presentarme();
+            milena.presentarme();
+            antonio.presentarme();
+
             Console.Read();
-
-
 
         } 
 
