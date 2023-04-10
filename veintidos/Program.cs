@@ -8,11 +8,12 @@ namespace  Clases
  
         static void Main(string[] args)
         {
-            Humano luis = new Humano("Luis", "Lopez",  22,"azul");
-            Humano ana = new Humano("Ana", "Llamas",  1,"Verde");
-            luis.presentarme();
-            ana.presentarme();
+
+            Humano humanoBasico = new Humano("Alberto", "Perez", "Azul");
+            humanoBasico.presentarme();
             Console.Read();
+
+
 
         } 
 
