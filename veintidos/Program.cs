@@ -8,12 +8,9 @@ namespace  Clases
  
         static void Main(string[] args)
         {
-            Caja caja = new Caja();
-            caja.SetLargo(5);
-            caja.alto = 3;
-            caja.ancho = 4;
-            caja.MuestraInfo(); 
-        
+            Caja caja = new Caja(5, 4, 10);
+            Console.WriteLine("El volumen es de {0}",caja.Volumen);
+            caja.MuestraInfo();
             Console.Read();
 
         } 
